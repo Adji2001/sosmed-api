@@ -14,3 +14,14 @@ Content-Type: application/json
 {
     "userId": "64ffe85abe56c2173a1eef80"
 }
+
+###
+GET http://localhost:5500/api/users/all
+
+###
+PATCH http://localhost:5500/api/users/64ffe2478a09538f3589d26e
+Content-Type: application/json
+
+{
+    "desc": "Hallo everyone, I'm john"
+}

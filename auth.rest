@@ -5,3 +5,13 @@ Content-Type: application/json
     "email": "adam@gmail.com",
     "password": "adam123"
 }
+
+###
+POST http://localhost:5500/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "adam",
+    "email": "adam@gmail.com",
+    "password": "adam123"
+}
