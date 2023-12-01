@@ -1,0 +1,24 @@
+GET http://localhost:5500/api/posts/6546134b7fcc5c3d4b39e64b
+
+###
+GET http://localhost:5500/api/posts/profile/majid
+
+###
+PUT http://localhost:5500/api/posts/6546134b7fcc5c3d4b39e64b
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGZmZTg1YWJlNTZjMjE3M2ExZWVmODAiLCJpYXQiOjE2OTkzMTM0NTMsImV4cCI6MTY5OTkxODI1M30.UlY-VzY7w1xjQclv2oTo4r_9rqZCuNVQA4QSbeVHIV4
+Content-Type: application/json
+
+{
+    "userId": "64ffe85abe56c2173a1eef80",
+    "desc": "Coba success update kedua (up)",
+    "img": "/posts/kopi (copy).jpeg"
+}
+
+###
+DELETE  http://localhost:5500/api/posts/6549d930136e7aaa3d6be0e8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGZmZTg1YWJlNTZjMjE3M2ExZWVmODAiLCJpYXQiOjE2OTkzMTM0NTMsImV4cCI6MTY5OTkxODI1M30.UlY-VzY7w1xjQclv2oTo4r_9rqZCuNVQA4QSbeVHIV4
+Content-Type: application/json
+
+{
+    "userId": "64ffe85abe56c2173a1eef80"
+}

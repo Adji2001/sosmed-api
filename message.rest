@@ -1,0 +1,27 @@
+POST http://localhost:5500/api/messages
+Content-Type: application/json
+
+{
+    "conversationId": "6551d914999e58a0d572a172",
+    "sender": "650af3e73895fe902847ba67",
+    "text": "How about you mas broooo, I'm Majid"
+}
+
+###
+GET http://localhost:5500/api/messages
+
+###
+GET http://localhost:5500/api/messages/6551d914999e58a0d572a172
+
+###
+GET http://localhost:5500/api/messages/user/6551d914999e58a0d572a172
+Content-Type: application/json
+
+{
+    "userId": "650af3e73895fe902847ba67"
+}
+
+###
+DELETE http://localhost:5500/api/messages/65588210c57ed95ab3f5301e
+
+

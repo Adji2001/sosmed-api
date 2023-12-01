@@ -1,0 +1,13 @@
+POST http://localhost:5500/api/conversations
+Content-Type: application/json
+
+{
+    "senderId": "650af3e73895fe902847ba67",
+    "receiveId": "64ffe2478a09538f3589d26e"
+}
+
+###
+GET http://localhost:5500/api/conversations
+
+###
+GET http://localhost:5500/api/conversations/650af3e73895fe902847ba67

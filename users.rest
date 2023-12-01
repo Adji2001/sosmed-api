@@ -1,0 +1,16 @@
+GET http://localhost:5500/api/users?userId=650af3e73895fe902847ba67
+
+###
+GET http://localhost:5500/api/users?userId=64ffe2478a09538f3589d26e
+
+###
+GET http://localhost:5500/api/users?username=adam
+
+###
+PUT http://localhost:5500/api/users/650da3b833d1380de0ca3cd8/follow
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGZmZTg1YWJlNTZjMjE3M2ExZWVmODAiLCJpYXQiOjE2OTkxODkyNzUsImV4cCI6MTY5OTc5NDA3NX0.iBhKMRJ8KHjgRhO1HtryoNgjKru_HcWgxQ9fi8U_Nlo
+Content-Type: application/json
+
+{
+    "userId": "64ffe85abe56c2173a1eef80"
+}

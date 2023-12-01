@@ -1,0 +1,14 @@
+GET http://localhost:5500/api/comments
+
+###
+GET http://localhost:5500/api/comments/6533ed7dece0b443b4260531
+
+###
+POST http://localhost:5500/api/comments
+Content-Type: application/json
+
+{
+    "postId": "6533ed7dece0b443b4260531",
+    "userId": "650af3e73895fe902847ba67",
+    "comment": "Okeh tengkyu dam"
+}
